@@ -2,9 +2,6 @@ import cv2
 from setting_mode_window import *
 
 cap = cv2.VideoCapture('video_.mp4')
-# cap.set(cv2.CAP_PROP_FRAME_WIDTH, 600)
-# cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 400)
-
 
 global img
 
