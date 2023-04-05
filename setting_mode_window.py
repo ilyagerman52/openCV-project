@@ -51,3 +51,5 @@ def entry_setting_mode(img):
             cv2.destroyWindow('settings')
             cv2.destroyWindow('setting2')
             break
+        if key_pressed == 115:
+            return h_min, s_min, v_min, h_max, s_max, v_max
